@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bakeries",
+  "info": {
+    "name": "bakery",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "price": {
+      "type": "integer"
+    },
+    "milligrams": {
+      "type": "integer"
+    },
+    "isAvailable": {
+      "type": "boolean"
+    },
+    "onSale": {
+      "type": "boolean"
+    },
+    "salePrice": {
+      "type": "integer"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}
