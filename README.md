@@ -6,6 +6,9 @@ This application is currently being built. The purpose of this application is to
 
 *A Link will be added here once the site has been deployed*
 
+## Server 
+- https://heavenly-delights-api.herokuapp.com/
+
 ## Built With
 - Node
 - Strapi 
