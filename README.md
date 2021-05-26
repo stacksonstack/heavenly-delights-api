@@ -12,6 +12,8 @@ This application is currently being built. The purpose of this application is to
 ## Built With
 - Node
 - Strapi 
+- Deployed w/ Heroku
+- Cloudinary (coming soon!)
 
 ## Frontend
 - React| Javascript | CSS | HTML 
